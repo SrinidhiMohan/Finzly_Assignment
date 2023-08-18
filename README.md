@@ -5,4 +5,4 @@ Srinidhi Mohan Finzly_Assignment
 4. Checkvowels in a given string and prints the string if all vowels are present
 5. Library managment system (implementing the concepts of oops)
 6. BankApplication (Implementing the concepts of abstraction)
-   
+7. Shapes implementing the area and perimeter for different shapes (EndUser.java file)
