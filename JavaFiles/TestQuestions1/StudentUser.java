@@ -20,7 +20,11 @@ class Student{
 		return age;
 	}
 	public void setAge(int age) {
+		if(age >0&&age<=150) {
 		this.age = age;
+		}else {
+			System.out.println("Enter a valid age");
+		}
 	}
 	public int getTotalStudentCount() {
 		return totalStudentCount;
@@ -42,12 +46,21 @@ class Student{
 		System.out.println("The Details of the Student added:");
 		System.out.println("Name: " + getName()+ "\n"+"Student ID: "+ getStudentID()+"\n"+"Age: " +getAge()+ "\n");
 	}
+	Student(int age){
+		setName("Unknown");
+		setStudentID("0");
+		setAge(age);
+		totalStudentCount++;
+		System.out.println("The Details of the Student added:");
+		System.out.println("Name: " + getName()+ "\n"+"Student ID: "+ getStudentID()+"\n"+"Age: " +getAge()+ "\n");
+	}
 	
 }
 public class StudentUser {
 	public static void main(String[] args) {
 		Student student1 = new Student();
 		Student student2 = new Student("Srindhi", "1002S2", 23);
+		Student student3 = new Student(1000);
 		
 	}
 }
