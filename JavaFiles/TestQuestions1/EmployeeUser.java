@@ -1,4 +1,5 @@
 package assignmentJava.TestQuestions1;
+import java.util.Scanner;
 class Employee{
 	private String name;
 	private String id;
@@ -16,13 +17,6 @@ class Employee{
 	}
 }
 class Manager extends Employee{
-	Manager(String name, String id, String department){
-		setName(name);
-		setId(id);
-		setDepartment(department);
-		System.out.println("The manager details are as follows:");
-		System.out.println("Name: " + getName()+ "\n"+"Id: "+ getId() +"\n"+ "Department: "+getDepartment()+"\n");
-	}
 	private String department;
 	public void setDepartment(String department) {
 		this.department=department;
@@ -30,15 +24,12 @@ class Manager extends Employee{
 	public String getDepartment() {
 		return department;
 	}
+	public void showDetails() {
+		System.out.println("The manager details are:");
+		System.out.println("Name: "+ getName()+"\n"+"ID: "+getId()+"\n"+"Department: "+ getDepartment()+"\n");
+	}
 }
 class Developer extends Employee{
-	Developer(String name, String id, String programmingLanguage){
-		setName(name);
-		setId(id);
-		setProgrammingLanguage(programmingLanguage);
-		System.out.println("The developer details are as follows:");
-		System.out.println("Name: " + getName()+ "\n"+"Id: "+ getId() +"\n"+ "Programming Language: "+getProgrammingLanguage()+"\n");
-	}
 	private String programmingLanguage;
 	public void setProgrammingLanguage(String programmingLanguage) {
 		this.programmingLanguage=programmingLanguage;
@@ -46,10 +37,29 @@ class Developer extends Employee{
 	public String getProgrammingLanguage() {
 		return programmingLanguage;
 	}
+	public void showDetails() {
+		System.out.println("The Developer details are:");
+		System.out.println("Name: "+ getName()+"\n"+"ID: "+getId()+"\n"+"Programming Language: "+ getProgrammingLanguage()+"\n");
+	}
 }
 public class EmployeeUser {
 	public static void main(String[] args) {
-	Manager m1 = new Manager("Saishree GR","M001","Operations");
-	Developer d1 = new Developer("Srinidhi Mohan","E001","Java");
+		Scanner sc = new Scanner(System.in);
+	    Manager m1 = new Manager();
+	    System.out.println("Enter the name of the Manager: ");
+	    m1.setName(sc.nextLine());
+	    System.out.println("Enter the ID:");
+	    m1.setId(sc.nextLine());
+	    System.out.println("Enter department:");
+	    m1.setDepartment(sc.nextLine());
+	    m1.showDetails();
+	    Developer d1 = new Developer();
+	    System.out.println("Enter the name of the Developer: ");
+	    d1.setName(sc.nextLine());
+	    System.out.println("Enter the ID:");
+	    d1.setId(sc.nextLine());
+	    System.out.println("Enter Programming Language:");
+	    d1.setProgrammingLanguage(sc.nextLine());
+	    d1.showDetails();
 }
 }
