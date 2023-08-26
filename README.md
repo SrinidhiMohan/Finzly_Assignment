@@ -8,3 +8,4 @@ Srinidhi Mohan Finzly_Assignment
 7. Shapes implementing the area and perimeter for different shapes (EndUser.java file)
 8. Test questions solved 1
 9. Test questions solved 2 
+10. FXtrading Assignment
