@@ -9,3 +9,4 @@ Srinidhi Mohan Finzly_Assignment
 8. Test questions solved 1
 9. Test questions solved 2 
 10. FXtrading Assignment
+11. Collection Frame work Assignment
