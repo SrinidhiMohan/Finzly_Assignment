@@ -11,3 +11,5 @@ Srinidhi Mohan Finzly_Assignment
 10. FXtrading Assignment
 11. Collection Frame work Assignment
 12. Collections Tasks
+13. Custom Exceptional handling in hotel management system
+14. Custom Exceptional Handling in room reseravation system
