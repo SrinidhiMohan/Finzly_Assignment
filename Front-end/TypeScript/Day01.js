@@ -1,0 +1,11 @@
+console.log("Hello World");
+console.log('Welcome to angular');
+console.log("\n    This is backtick \n");
+var a1, a2, a$2;
+// console.log(a1);
+var a = 10;
+console.log("The value of a : " + a);
+a = 15;
+console.log("The value of a: ".concat(a));
+var b = "Srinidhi";
+console.log(b);
