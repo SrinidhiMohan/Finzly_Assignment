@@ -13,4 +13,5 @@ Srinidhi Mohan Finzly_Assignment
 12. Collections Tasks
 13. Custom Exceptional handling in hotel management system
 14. Custom Exceptional Handling in room reseravation system
-15. Sql Queries CRUD using java 
+15. Sql Queries CRUD using JDBC
+16. Hibernate CRUD operations
