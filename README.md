@@ -15,4 +15,6 @@ Srinidhi Mohan Finzly_Assignment
 14. Custom Exceptional Handling in room reseravation system
 15. Sql Queries CRUD using JDBC
 16. Hibernate CRUD operations
-17. Criteria Restriction and projection 
+17. Criteria Restriction and projection
+18. Library Management using Hibernate
+19. Employee Management using Hibernate
