@@ -18,3 +18,4 @@ Srinidhi Mohan Finzly_Assignment
 17. Criteria Restriction and projection
 18. Library Management using Hibernate
 19. Employee Management using Hibernate
+20 . fxtrading-microservice
