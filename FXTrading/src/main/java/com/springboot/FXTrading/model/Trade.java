@@ -1,5 +1,7 @@
 package com.springboot.FXTrading.model;
 
+import java.text.DecimalFormat;
+
 public class Trade {
 	private static double tradingAmountLimit = 1.7976931348623157E+308;
 	private int tradeID;
@@ -71,7 +73,20 @@ public class Trade {
 	public static double getTradingAmountLimit() {
 		return tradingAmountLimit;
 	}
+	
 
+	 @Override
+	public String toString() {
+		return "Trade for " + getCurrencyPair() +" has been booked with rate " + getRate() 
+		+". The amount of Rs " + formatAmount(getAmount() * getRate())
+		+ "will be transferred in 2 working days to "+ getCustomerName() +"..";
+	}
+
+	private String formatAmount(double amount) {
+	        DecimalFormat df = new DecimalFormat("##,##,##,##,##,##,##,##,##,##,##,##,##,##,##,###.00");
+	        return "INR " + df.format(amount);
+	    }
+	 
 	
 
 }
