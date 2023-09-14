@@ -1,4 +1,5 @@
 Srinidhi Mohan Finzly_Assignment
+_______________ Java tasks___________________________________
 1. Loops programs 
 2. Tic tac toe game
 3. Horse moves
@@ -18,3 +19,8 @@ Srinidhi Mohan Finzly_Assignment
 17. Criteria Restriction and projection
 18. Library Management using Hibernate
 19. Employee Management using Hibernate
+
+_______________ Angular tasks___________________________________
+1. typesripts daily tasks
+2. Angular setup and first angular application
+3. Manual Component Creation and Component creation through CLI
