@@ -1,0 +1,10 @@
+<hr>
+<p>login works!</p>
+<br>
+<label>Username:</label><br>
+<input #name type="text" maxlength="8" placeholder="username" required><br><br>
+<label>Password</label><br>
+<input #password maxlength="8" type="password" placeholder="********" required><br><br>
+<button (click)="validateCredentials(name.value,password.value)">Submit</button>
+
+  
