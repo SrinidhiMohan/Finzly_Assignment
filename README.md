@@ -24,3 +24,7 @@ _______________ Angular tasks___________________________________
 1. typesripts daily tasks
 2. Angular setup and first angular application
 3. Manual Component Creation and Component creation through CLI
+4. Class binding task
+5. Property Binding task
+6. Prime number
+7. Login form with validation
