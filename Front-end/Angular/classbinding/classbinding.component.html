@@ -1,0 +1,8 @@
+<p>classbinding works!</p>
+<br>
+<!-- applying clas binding on a button to change its font and color to red -->
+<button (click)="handleClick()" [class.italic-red]="isClicked">Submit</button>
+<br><br><br>
+
+<button (click)="handleClickEvent('User data')">Click Me</button>
+<p>Clicked Data: {{ clickedData }}</p>
